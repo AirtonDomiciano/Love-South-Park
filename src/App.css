@@ -1,0 +1,63 @@
+.body {
+
+}
+
+.App-header {
+  position: relative;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.image-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.image-container img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  text-align: center;
+  overflow: hidden;
+}
+
+.title-header {
+  position: absolute;
+}
+
+.text-from-header {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: yellow;
+  letter-spacing: 2px;
+}
+
+.body {
+  background-color: rgb(136 212 226);
+}
+
+.body-ceu {
+  background-color: rgb(136 212 226);
+  height: 10vh;
+}
+
+.body-image {
+  background: #49caf2 url(../public/images/body.jpg) no-repeat top center;
+  position: relative;
+  height: 800px;
+  min-height: 500px;
+  width: 100%;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  text-align: center;
+  overflow: hidden;
+}
